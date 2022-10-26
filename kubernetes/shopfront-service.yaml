@@ -13,8 +13,6 @@ spec:
   - protocol: TCP
     port: 8010
     name: http
-  nodeSelector:
-    size: medium
 
 ---
 apiVersion: apps/v1
